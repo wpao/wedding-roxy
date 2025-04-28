@@ -3,8 +3,8 @@
 services:
   frontend:
     build: .
-    image: albaeus/wedding-home
-    container_name: wedding-home
+    image: albaeus/wedding-roxy
+    container_name: wedding-roxy
     restart: on-failure:3
     ports:
       - "${VITE_PORT}:${VITE_PORT}" # Menggunakan port dari .env

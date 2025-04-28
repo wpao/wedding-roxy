@@ -20,7 +20,7 @@ COPY . .
 RUN pnpm build
 
 # Expose port yang digunakan oleh aplikasi frontend
-EXPOSE 3002
+EXPOSE 3004
 
 # Jalankan aplikasi frontend
 CMD ["pnpm", "dev"]
